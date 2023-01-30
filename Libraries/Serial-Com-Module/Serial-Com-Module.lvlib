@@ -22,6 +22,8 @@
 				<Item Name="Init Serial (Reply Payload)--cluster.ctl" Type="VI" URL="../Init Serial (Reply Payload)--cluster.ctl"/>
 				<Item Name="Open Port Argument--cluster.ctl" Type="VI" URL="../Open Port Argument--cluster.ctl"/>
 				<Item Name="Open Port (Reply Payload)--cluster.ctl" Type="VI" URL="../Open Port (Reply Payload)--cluster.ctl"/>
+				<Item Name="Close Port Argument--cluster.ctl" Type="VI" URL="../Close Port Argument--cluster.ctl"/>
+				<Item Name="Close Port (Reply Payload)--cluster.ctl" Type="VI" URL="../Close Port (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -36,6 +38,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Init Serial.vi" Type="VI" URL="../Init Serial.vi"/>
 			<Item Name="Open Port.vi" Type="VI" URL="../Open Port.vi"/>
+			<Item Name="Close Port.vi" Type="VI" URL="../Close Port.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -55,6 +58,7 @@
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="Serial Did Init.vi" Type="VI" URL="../Serial Did Init.vi"/>
 		<Item Name="Serial Port Did Open.vi" Type="VI" URL="../Serial Port Did Open.vi"/>
+		<Item Name="Port Did Close.vi" Type="VI" URL="../Port Did Close.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
