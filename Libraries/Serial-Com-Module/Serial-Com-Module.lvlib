@@ -28,6 +28,8 @@
 				<Item Name="Read Buffer (Reply Payload)--cluster.ctl" Type="VI" URL="../Read Buffer (Reply Payload)--cluster.ctl"/>
 				<Item Name="Send Argument--cluster.ctl" Type="VI" URL="../Send Argument--cluster.ctl"/>
 				<Item Name="Send (Reply Payload)--cluster.ctl" Type="VI" URL="../Send (Reply Payload)--cluster.ctl"/>
+				<Item Name="Send Line Argument--cluster.ctl" Type="VI" URL="../Send Line Argument--cluster.ctl"/>
+				<Item Name="Send Line (Reply Payload)--cluster.ctl" Type="VI" URL="../Send Line (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -45,6 +47,7 @@
 			<Item Name="Close Port.vi" Type="VI" URL="../Close Port.vi"/>
 			<Item Name="Read Buffer.vi" Type="VI" URL="../Read Buffer.vi"/>
 			<Item Name="Send.vi" Type="VI" URL="../Send.vi"/>
+			<Item Name="Send Line.vi" Type="VI" URL="../Send Line.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -67,6 +70,7 @@
 		<Item Name="Port Did Close.vi" Type="VI" URL="../Port Did Close.vi"/>
 		<Item Name="Read Buffer broadcast.vi" Type="VI" URL="../Read Buffer broadcast.vi"/>
 		<Item Name="Send Broadcast.vi" Type="VI" URL="../Send Broadcast.vi"/>
+		<Item Name="Send Line broadcast.vi" Type="VI" URL="../Send Line broadcast.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
