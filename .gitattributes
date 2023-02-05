@@ -11,3 +11,5 @@
 *.xnode binary
 *.xcontrol binary
 *.rtm binary
+
+*.seq binary

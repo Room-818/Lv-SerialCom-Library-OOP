@@ -18,8 +18,6 @@
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Get Module Execution Status Argument--cluster.ctl" Type="VI" URL="../Get Module Execution Status Argument--cluster.ctl"/>
-				<Item Name="Init Serial Argument--cluster.ctl" Type="VI" URL="../Init Serial Argument--cluster.ctl"/>
-				<Item Name="Init Serial (Reply Payload)--cluster.ctl" Type="VI" URL="../Init Serial (Reply Payload)--cluster.ctl"/>
 				<Item Name="Open Port Argument--cluster.ctl" Type="VI" URL="../Open Port Argument--cluster.ctl"/>
 				<Item Name="Open Port (Reply Payload)--cluster.ctl" Type="VI" URL="../Open Port (Reply Payload)--cluster.ctl"/>
 				<Item Name="Close Port Argument--cluster.ctl" Type="VI" URL="../Close Port Argument--cluster.ctl"/>
@@ -44,7 +42,6 @@
 			<Item Name="Hide Panel.vi" Type="VI" URL="../Hide Panel.vi"/>
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
-			<Item Name="Init Serial.vi" Type="VI" URL="../Init Serial.vi"/>
 			<Item Name="Open Port.vi" Type="VI" URL="../Open Port.vi"/>
 			<Item Name="Close Port.vi" Type="VI" URL="../Close Port.vi"/>
 			<Item Name="Read Buffer.vi" Type="VI" URL="../Read Buffer.vi"/>
@@ -56,6 +53,7 @@
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
 		<Item Name="Null Broadcast Events--constant.vi" Type="VI" URL="../Null Broadcast Events--constant.vi"/>
+		<Item Name="Launch from TestStand.vi" Type="VI" URL="../Launch from TestStand.vi"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -68,7 +66,6 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
-		<Item Name="Serial Did Init.vi" Type="VI" URL="../Serial Did Init.vi"/>
 		<Item Name="Serial Port Did Open.vi" Type="VI" URL="../Serial Port Did Open.vi"/>
 		<Item Name="Port Did Close.vi" Type="VI" URL="../Port Did Close.vi"/>
 		<Item Name="Read Buffer broadcast.vi" Type="VI" URL="../Read Buffer broadcast.vi"/>
@@ -133,4 +130,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Status string Append--helper.vi" Type="VI" URL="../Status string Append--helper.vi"/>
 </Library>
