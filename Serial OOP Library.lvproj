@@ -159,6 +159,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9624DDDD-0B4F-4FFF-8E26-0160D701040E}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">serial-module-ppl.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/serial-module-ppl.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -169,7 +170,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6ADFA10D-1336-4791-A320-94FF4D90F50A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{935FE462-0910-400C-BA23-8C02BF0BC5D9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Modules/Serial-Com-Module.lvlib</Property>
