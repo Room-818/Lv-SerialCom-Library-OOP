@@ -53,6 +53,7 @@
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
 		<Item Name="Null Broadcast Events--constant.vi" Type="VI" URL="../Null Broadcast Events--constant.vi"/>
+		<Item Name="Launch API Tester.vi" Type="VI" URL="../Launch API Tester.vi"/>
 		<Item Name="Launch from TestStand.vi" Type="VI" URL="../Launch from TestStand.vi"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
@@ -83,6 +84,7 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Test Serial-Com-Module API.vi" Type="VI" URL="../Test Serial-Com-Module API.vi"/>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
@@ -98,6 +100,7 @@
 		<Item Name="Master Reference Not Closed--error.vi" Type="VI" URL="../Master Reference Not Closed--error.vi"/>
 		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
 		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
+		<Item Name="Status string Append--helper.vi" Type="VI" URL="../Status string Append--helper.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -130,5 +133,4 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Status string Append--helper.vi" Type="VI" URL="../Status string Append--helper.vi"/>
 </Library>
