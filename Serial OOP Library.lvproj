@@ -71,9 +71,7 @@
 			<Item Name="Serial-Com-Module.lvlib" Type="Library" URL="../Libraries/Serial-Com-Module/Serial-Com-Module.lvlib"/>
 			<Item Name="Serial-Com-Libraries.lvlib" Type="Library" URL="../Libraries/Serial Com Libraries/Serial-Com-Libraries.lvlib"/>
 		</Item>
-		<Item Name="Testers" Type="Folder">
-			<Item Name="Test Serial-Com-Module API.vi" Type="VI" URL="../Libraries/Serial-Com-Module/Test Serial-Com-Module API.vi"/>
-		</Item>
+		<Item Name="Testers" Type="Folder"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
@@ -158,8 +156,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9624DDDD-0B4F-4FFF-8E26-0160D701040E}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">serial-module-ppl.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/serial-module-ppl.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -170,7 +167,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{935FE462-0910-400C-BA23-8C02BF0BC5D9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FE64A7BA-57A1-4D56-B916-31ADBAE9F653}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Modules/Serial-Com-Module.lvlib</Property>
@@ -181,7 +178,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Testers/Test Serial-Com-Module API.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Modules/Serial-Com-Module.lvlib/Private/Test Serial-Com-Module API.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
